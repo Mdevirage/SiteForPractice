@@ -29,17 +29,7 @@ nav ul {
     justify-content: space-evenly; 
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
-}
 
-/* Контент должен занимать все доступное пространство */
-main {
-    flex-grow: 1; /* Растягивает основной контент */
-    padding: 20px;
-}
 
 /* Стили для меню */
 nav ul li a {
@@ -72,7 +62,7 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        display: block; /* Ссылки становятся блочными для удобства клика */
+        display: block; /* Ссылки становятся блочными при сужении
         width: 100%;
         padding: 15px;
     }
