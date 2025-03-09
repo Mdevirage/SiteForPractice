@@ -1,0 +1,79 @@
+body {
+    font-family: monospace;
+    background: linear-gradient(0deg, #796857, #aa9988);
+}
+
+header {
+    padding: 15px 30px; /* Внутренние отступы */
+    color: white; /* Цвет текста */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+h1 {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* Навигационное меню */
+nav ul {
+    list-style-type: none; 
+    padding: 15px;
+    background-color: #5d4ad6;
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+/* Контент должен занимать все доступное пространство */
+main {
+    flex-grow: 1; /* Растягивает основной контент */
+    padding: 20px;
+}
+
+/* Стили для меню */
+nav ul li a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет текста */
+    font-size: 15px;
+    padding: 15px 25px; /* Отступы */
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Плавные переходы */
+    background-color: #5d4ad6;
+}
+
+/* Эффект наведения */
+nav ul li a:hover {
+    background-color: #796857;
+    transform: scale(1.1);
+}
+
+/* Медиа-запрос при сужении экрана */
+@media (max-width: 1000px) {
+    nav ul {
+        flex-direction: column; /* Меню становится вертикальным */
+        align-items: center; /* Центрирование пунктов */
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        width: 100%; /* Элементы занимают всю ширину */
+        text-align: center; 
+    }
+
+    nav ul li a {
+        display: block; /* Ссылки становятся блочными для удобства клика */
+        width: 100%;
+        padding: 15px;
+    }
+}
