@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 /* Медиа-запрос при сужении экрана */
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     nav ul {
         flex-direction: column; /* Меню становится вертикальным */
         align-items: center; /* Центрирование пунктов */

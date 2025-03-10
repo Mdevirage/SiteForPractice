@@ -26,7 +26,7 @@ body {
 }
 /* Стили для текста */
 .text {
-    max-width: 600px; 
+    max-width: 1080px; 
     font-size: 18px; 
     line-height: 1.6; /
 }
@@ -39,6 +39,6 @@ body {
     }
 
     .content img {
-        max-width: 50%; /* Изображения растягиваются на всю ширину */
+        max-width: 100%; /* Изображения растягиваются на всю ширину */
     }
 }

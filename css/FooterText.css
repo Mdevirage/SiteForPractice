@@ -20,12 +20,12 @@ footer a:hover {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Высота = 100% окна */
+    min-height: 100vh; /* Высота = 100% экрана */
 }
 
 /* Контент должен занимать все доступное пространство */
 main {
-    flex-grow: 1; /* Растягивает основной контент */
+    flex: 1; /* Заполняет всё доступное пространство */
     padding: 20px;
 }
 
