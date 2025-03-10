@@ -1,7 +1,4 @@
-body {
-    font-family: monospace;
-    background: linear-gradient(0deg, #796857, #aa9988);
-}
+/*header*/
 
 header {
     padding: 15px 30px; /* Внутренние отступы */
@@ -19,7 +16,6 @@ h1 {
     font-style: italic;
 }
 
-
 /* Навигационное меню */
 nav ul {
     list-style-type: none; 
@@ -28,8 +24,6 @@ nav ul {
     display: flex; 
     justify-content: space-evenly; 
 }
-
-
 
 /* Стили для меню */
 nav ul li a {

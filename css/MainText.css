@@ -5,18 +5,10 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
+body {
+    font-family: monospace;
+    background: linear-gradient(0deg, #796857, #aa9988);
 }
-
-/* Контент должен занимать все доступное пространство */
-main {
-    flex-grow: 1; /* Растягивает основной контент */
-    padding: 20px;
-}
-
 
 /* Контейнер для изображений и текста */
 .content {
@@ -32,7 +24,6 @@ main {
     max-width: 50%; 
     height: auto;   
 }
-
 /* Стили для текста */
 .text {
     max-width: 600px; 
@@ -41,7 +32,7 @@ main {
 }
 
 /* Медиа-запрос при сужении экрана */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .content {
         flex-direction: column; /* При сжатии экрана – вертикальный режим */
         align-items: center; /* Центрирование содержимого */
