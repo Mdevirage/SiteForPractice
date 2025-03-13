@@ -29,10 +29,12 @@ main {
     padding: 20px;
 }
 
-/* Стили для футера */
-footer {
-    background-color: #444;
+@media (max-width: 1080px) {
+    footer {
+    background-color: #333;
+    font-size: 24px;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
+    }
 }

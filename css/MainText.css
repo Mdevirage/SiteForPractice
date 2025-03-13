@@ -28,7 +28,7 @@ body {
 .text {
     max-width: 1080px; 
     font-size: 18px; 
-    line-height: 1.6; /
+    line-height: 1.6; 
 }
 
 /* Медиа-запрос при сужении экрана */
@@ -38,7 +38,13 @@ body {
         align-items: center; /* Центрирование содержимого */
     }
 
+    .text {
+    max-width: 1080px; 
+    font-size: 22px; 
+    line-height: 1.6; 
+}
     .content img {
         max-width: 100%; /* Изображения растягиваются на всю ширину */
     }
 }
+

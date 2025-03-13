@@ -56,8 +56,14 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        display: block; /* Ссылки становятся блочными при сужении
+        display: block;
+        font-size: 26px;
         width: 100%;
         padding: 15px;
     }
+
+    h1 {
+    font-size: 23px;
+    font-style: italic;
+}
 }
